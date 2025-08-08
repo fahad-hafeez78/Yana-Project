@@ -1,0 +1,14 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.yanaproject",
+        "sha256_cert_fingerprints": [
+          "C4:B3:87:2A:E3:3B:E0:3F:FD:07:C4:A4:49:0A:14:44:F0:09:AF:A4:55:24:58:C7:97:70:40:4D:25:81:6C:18"
+        ]
+      }
+    }
+  ]

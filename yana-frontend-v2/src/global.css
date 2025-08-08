@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Barlow';
+  background-color: #f5f5f5;
+}
+
+.app-container {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Remove autocomplete styling in Chrome */
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  box-shadow: 0 0 0px 1000px white inset !important;
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  -webkit-text-fill-color: #000 !important;
+}
+
+.remove-arrow::-webkit-inner-spin-button,
+.remove-arrow::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.remove-arrow {
+  -moz-appearance: 'textfield';
+}
+
+
+/* Hide scrollbar by default */
+::-webkit-scrollbar {
+  width: 6px;
+  /* Slim scrollbar width */
+  height: 6px;
+}
+
+/* Transparent scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: rgba(197, 197, 197, 0);
+  /* Invisible by default */
+  border-radius: 8px;
+  /* Rounded scrollbar edges */
+
+}
+
+/* Show scrollbar thumb on hover */
+:hover::-webkit-scrollbar-thumb {
+  background: rgba(197, 197, 197, 1);
+  /* Fully visible on hover */
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9b9a9a;
+  /* Darker color on hover */
+}

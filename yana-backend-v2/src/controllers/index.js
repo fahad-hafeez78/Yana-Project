@@ -1,0 +1,17 @@
+module.exports.keyController = require('./key.controller');
+module.exports.authController = require('./auth.controller');   
+module.exports.vendorController = require('./vendor.controller');
+module.exports.mealController = require('./meal.controller');
+module.exports.menuController = require('./menu.controller');
+module.exports.reviewController = require('./review.controller');
+module.exports.customerController = require('./customer.controller');
+module.exports.roleController = require('./role.controller');
+module.exports.umsController = require('./ums.controller');
+module.exports.orderController = require('./order.controller'); 
+module.exports.chatController = require('./chat.controller');
+module.exports.taskController = require('./task.controller');
+module.exports.ticketController = require('./ticket.controller');
+module.exports.zoneController = require('./zone.controller');
+module.exports.riderController = require('./rider.controller');
+module.exports.routeController = require('./route.controller');
+module.exports.claimController = require('./claim.controller');
